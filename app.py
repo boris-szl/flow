@@ -4,6 +4,9 @@ import webbrowser
 import time
 import urllib
 
+import pandas as pd
+import numpy as np
+
 import scrapy
 import lxml
 import lxml.html
@@ -20,6 +23,10 @@ from selenium.common.exceptions import NoSuchElementException
 
 # bs4
 from bs4 import BeautifulSoup
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.3"
+    }
 
 def quitBrowser():
     browser.quit()
@@ -74,7 +81,20 @@ def companyLookup():
     searchBar.send_keys(str(company_name))
     searchBar.submit()
 
+
+def setCaptchaInput():
+    input_field = browser.find_element(By.NAME, "solution")
+    captcha = input("Please input the valid captcha characters\n")
+    input_field.send_keys(str(captcha))
+    input_field.submit()
+
 def selectJahresabschlüsse():
+    search_field = wait(browser, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="dropdownMenuButton"]')))
+    search_field.click()
+    jahresabschluesse = wait(browser, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="9135"]/a')))
+    jahresabschluesse.click()
+
+def selectIncomeStatement():
     search_field = wait(browser, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="dropdownMenuButton"]')))
     search_field.click()
     jahresabschluesse = wait(browser, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="9135"]/a')))
@@ -118,7 +138,7 @@ def main():
     # selectJahresabschlüsse()
     # createListForCompanyNames()
     # result container global search
-    # 
+    #
     # print(resultContainer)
     link_text = ""
     try:
@@ -166,11 +186,11 @@ def main():
     # donwloading the file yields a higher image quality than screenshotting
     # no always, answer lies here : https://superuser.com/questions/1333187/quality-of-image-file-screenshot-of-the-image-vs-original-image
     try:
-        # finding element by css selector
+    # finding element by css selector
         captcha_elment = browser.find_element(By.CSS_SELECTOR, ".captcha_wrapper > img:nth-child(1)")
         print("first worked")
-        except:
-            print("captcha element not found")
+    except:
+        print("captcha element not found")
         try:
             captcha_element_by_xpath_alt = browser.find_element(By.XPATH, "//img[@alt='Captcha']")
             print("second worked")
@@ -179,8 +199,43 @@ def main():
             try:
                 captcha_element_by_css_alt = browser.find_element(By.CSS_SELECTOR, '[alt="Captcha"]')
                 print("third worked")
-                except:
-                    print("captcha element not found by css selector passing alt as arg ")
+            except:
+                print("captcha element not found by css selector passing alt as arg ")
+
+    try:
+        captcha_form = browser.find_element(By.CLASS_NAME, "form-control")
+        print("class name found")
+    except NoSuchElementException:
+        print("no web element by class name found")
+        try:
+            captch_input_name = browser.find_element(By.NAME, "sulution")
+            print("web element by name found")
+        except NoSuchElementException:
+            print("no web element by name found")
+
+    # get table
+    # table id = "begin_pub"
+    try:
+        setCaptchaInput()
+        source = getCurrentUrl()
+        print(source)
+        data = pd.read_html(requests.get(source, headers=headers).text)
+        print(data)
+    except ValueError:
+        print("no tables found")
+        try:
+            # 1 After setting up the driver, we select the table with its ID value
+            # 2 Then, from that element, we get the HTML instead of the web driver element object
+            # with .get_attribute("outerHTML")
+            # 3 We use pandas to parse the html
+            # 4 So we index into that list with the only table we have, at index zero
+            df = pd.read_html(browser.find_element(By.ID, "begin_pub").get_attribute("outerHTML"))[1]
+            print(df)
+        except NoSuchElementException:
+            print("no table element found")
+        finally:
+            # beautifulsoup approach
+            # https://stackoverflow.com/questions/53398785/pandas-read-html-valueerror-no-tables-found
     finally:
         promptToQuit()
 

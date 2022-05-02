@@ -27,7 +27,7 @@ def get_text(el, class_name):
 
 def get_value(el):
  	    return get_text(el, 'value') or el.text_content()
- 	
+
 def get_all_texts(el, class_name):
 	return [e.text_content() for e in els.find_class(class_name)]
 

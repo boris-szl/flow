@@ -5281,3 +5281,651 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
 1651320502396	Marionette	INFO	Stopped listening on port 64793
+1651333933006	geckodriver	INFO	Listening on 127.0.0.1:51649
+1651333933547	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51650" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilekffCd3"
+1651333934771	Marionette	INFO	Marionette enabled
+2022-04-30 17:52:15.722 firefox-bin[63819:1843898] Warning: Expected min height of view: (<NSButton: 0x122b23000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:52:15.723 firefox-bin[63819:1843898] Warning: Expected min height of view: (<NSButton: 0x122dd8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:52:15.723 firefox-bin[63819:1843898] Warning: Expected min height of view: (<NSButton: 0x122dd6000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:52:15.724 firefox-bin[63819:1843898] Warning: Expected min height of view: (<NSButton: 0x122dd2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:52:15.725 firefox-bin[63819:1843898] Warning: Expected min height of view: (<NSButton: 0x122dd7800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:52:15.725 firefox-bin[63819:1843898] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x122dd8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:52:15.726 firefox-bin[63819:1843898] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1125a2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilekffCd3/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51650/devtools/browser/f3b900b0-7500-4d77-b1a7-f78778e9645a
+1651333937077	Marionette	INFO	Listening on port 51657
+1651333937154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651334027637	Marionette	INFO	Stopped listening on port 51657
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651334034932	geckodriver	INFO	Listening on 127.0.0.1:51743
+1651334034948	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51744" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofile1gGPSq"
+1651334035417	Marionette	INFO	Marionette enabled
+2022-04-30 17:53:56.058 firefox-bin[63872:1845872] Warning: Expected min height of view: (<NSButton: 0x11244fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:53:56.058 firefox-bin[63872:1845872] Warning: Expected min height of view: (<NSButton: 0x113e5f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:53:56.059 firefox-bin[63872:1845872] Warning: Expected min height of view: (<NSButton: 0x113e5f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:53:56.059 firefox-bin[63872:1845872] Warning: Expected min height of view: (<NSButton: 0x113e60400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:53:56.060 firefox-bin[63872:1845872] Warning: Expected min height of view: (<NSButton: 0x102d6d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:53:56.060 firefox-bin[63872:1845872] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x113e66000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:53:56.061 firefox-bin[63872:1845872] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1111f1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofile1gGPSq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51744/devtools/browser/f6046d4f-bfaa-481f-ae4f-513503c03871
+1651334037191	Marionette	INFO	Listening on port 51749
+1651334037213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+1651334056968	geckodriver	INFO	Listening on 127.0.0.1:51813
+1651334057490	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51814" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileIGyAnX"
+1651334057963	Marionette	INFO	Marionette enabled
+2022-04-30 17:54:18.636 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x115c7c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:54:18.636 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x115e7c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:54:18.637 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x115e75c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:54:18.638 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x115e7a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:54:18.638 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x115e79000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:54:18.639 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x115e76c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 17:54:18.639 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x112778400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileIGyAnX/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51814/devtools/browser/b6c86a68-f09b-405e-a688-eb42ca2d45e9
+1651334059806	Marionette	INFO	Listening on port 51821
+1651334059872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+2022-04-30 18:40:43.883 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x112ac4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 18:40:43.884 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x112ac4800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 18:40:43.884 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x112ac1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 18:40:43.885 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x112ac2000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 18:40:43.886 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSButton: 0x112ac3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 18:40:43.887 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x112ac4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-04-30 18:40:43.887 firefox-bin[63893:1846592] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1134c1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1651336844979	Marionette	INFO	Stopped listening on port 51821
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651336847659	Marionette	INFO	Stopped listening on port 51749
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651428599003	geckodriver	INFO	Listening on 127.0.0.1:60906
+1651428599531	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60907" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilectSES6"
+1651428600836	Marionette	INFO	Marionette enabled
+2022-05-01 20:10:01.694 firefox-bin[70736:2069184] Warning: Expected min height of view: (<NSButton: 0x12c7eac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-01 20:10:01.695 firefox-bin[70736:2069184] Warning: Expected min height of view: (<NSButton: 0x12c8a4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-01 20:10:01.696 firefox-bin[70736:2069184] Warning: Expected min height of view: (<NSButton: 0x12c8a3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-01 20:10:01.696 firefox-bin[70736:2069184] Warning: Expected min height of view: (<NSButton: 0x12c8a8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-01 20:10:01.697 firefox-bin[70736:2069184] Warning: Expected min height of view: (<NSButton: 0x12c8a3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-01 20:10:01.697 firefox-bin[70736:2069184] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12c8a9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-01 20:10:01.698 firefox-bin[70736:2069184] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1245a6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilectSES6/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:60907/devtools/browser/9c72074f-19bc-4ee6-9855-b9bcc15a3532
+1651428603124	Marionette	INFO	Listening on port 60914
+1651428603166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651480145665	Marionette	INFO	Stopped listening on port 60914
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651480320132	geckodriver	INFO	Listening on 127.0.0.1:50675
+1651480320657	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50676" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileVxZ1gO"
+1651480321706	Marionette	INFO	Marionette enabled
+2022-05-02 10:32:02.737 firefox-bin[72088:2114514] Warning: Expected min height of view: (<NSButton: 0x124629400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:32:02.737 firefox-bin[72088:2114514] Warning: Expected min height of view: (<NSButton: 0x124895000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:32:02.738 firefox-bin[72088:2114514] Warning: Expected min height of view: (<NSButton: 0x124898c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:32:02.739 firefox-bin[72088:2114514] Warning: Expected min height of view: (<NSButton: 0x124897c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:32:02.739 firefox-bin[72088:2114514] Warning: Expected min height of view: (<NSButton: 0x124899c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:32:02.740 firefox-bin[72088:2114514] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x124895800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:32:02.740 firefox-bin[72088:2114514] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11c3b3000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileVxZ1gO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50676/devtools/browser/caad25f6-8e79-45f2-8c60-624ff98fc679
+1651480324240	Marionette	INFO	Listening on port 50683
+1651480324357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651480398781	Marionette	INFO	Stopped listening on port 50683
+1651481206384	geckodriver	INFO	Listening on 127.0.0.1:51028
+1651481206910	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51029" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilemzboTe"
+1651481207871	Marionette	INFO	Marionette enabled
+2022-05-02 10:46:48.868 firefox-bin[72667:2133786] Warning: Expected min height of view: (<NSButton: 0x1295c6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:46:48.869 firefox-bin[72667:2133786] Warning: Expected min height of view: (<NSButton: 0x1296bbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:46:48.869 firefox-bin[72667:2133786] Warning: Expected min height of view: (<NSButton: 0x1296b6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:46:48.870 firefox-bin[72667:2133786] Warning: Expected min height of view: (<NSButton: 0x1296bcc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:46:48.870 firefox-bin[72667:2133786] Warning: Expected min height of view: (<NSButton: 0x10aca5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:46:48.871 firefox-bin[72667:2133786] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1296bc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:46:48.871 firefox-bin[72667:2133786] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x119222800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilemzboTe/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51029/devtools/browser/e5d5145e-1821-47b9-a76e-0bfaffab4688
+1651481210329	Marionette	INFO	Listening on port 51036
+1651481210419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651481262522	Marionette	INFO	Stopped listening on port 51036
+1651481272892	geckodriver	INFO	Listening on 127.0.0.1:51119
+1651481273413	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51120" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileKSOwV2"
+1651481273900	Marionette	INFO	Marionette enabled
+2022-05-02 10:47:54.573 firefox-bin[72712:2135499] Warning: Expected min height of view: (<NSButton: 0x11a2e5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:47:54.573 firefox-bin[72712:2135499] Warning: Expected min height of view: (<NSButton: 0x12046c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:47:54.574 firefox-bin[72712:2135499] Warning: Expected min height of view: (<NSButton: 0x12046b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:47:54.574 firefox-bin[72712:2135499] Warning: Expected min height of view: (<NSButton: 0x12046c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:47:54.575 firefox-bin[72712:2135499] Warning: Expected min height of view: (<NSButton: 0x120465400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:47:54.576 firefox-bin[72712:2135499] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12046f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:47:54.576 firefox-bin[72712:2135499] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118317800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileKSOwV2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51120/devtools/browser/05a12043-3af9-4a3b-87ef-ddc53dfe8105
+1651481275641	Marionette	INFO	Listening on port 51127
+1651481275693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651481371263	geckodriver	INFO	Listening on 127.0.0.1:51192
+1651481371278	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51193" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilemccbGa"
+1651481371754	Marionette	INFO	Marionette enabled
+2022-05-02 10:49:32.434 firefox-bin[72760:2137411] Warning: Expected min height of view: (<NSButton: 0x11947bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:49:32.434 firefox-bin[72760:2137411] Warning: Expected min height of view: (<NSButton: 0x119660000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:49:32.435 firefox-bin[72760:2137411] Warning: Expected min height of view: (<NSButton: 0x119661400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:49:32.435 firefox-bin[72760:2137411] Warning: Expected min height of view: (<NSButton: 0x119668c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:49:32.436 firefox-bin[72760:2137411] Warning: Expected min height of view: (<NSButton: 0x119668800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:49:32.436 firefox-bin[72760:2137411] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x119661800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:49:32.437 firefox-bin[72760:2137411] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1113e9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilemccbGa/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51193/devtools/browser/2336836b-17b2-4760-8063-1af6272fa064
+1651481373448	Marionette	INFO	Listening on port 51198
+1651481373556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+1651481429081	Marionette	INFO	Stopped listening on port 51198
+1651481455645	geckodriver	INFO	Listening on 127.0.0.1:51279
+1651481456167	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51280" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileMpQsDC"
+1651481456633	Marionette	INFO	Marionette enabled
+2022-05-02 10:50:57.296 firefox-bin[72825:2139357] Warning: Expected min height of view: (<NSButton: 0x124770000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:50:57.296 firefox-bin[72825:2139357] Warning: Expected min height of view: (<NSButton: 0x12ae75c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:50:57.297 firefox-bin[72825:2139357] Warning: Expected min height of view: (<NSButton: 0x12ae76c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:50:57.297 firefox-bin[72825:2139357] Warning: Expected min height of view: (<NSButton: 0x12ae76000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:50:57.298 firefox-bin[72825:2139357] Warning: Expected min height of view: (<NSButton: 0x12ae77800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:50:57.299 firefox-bin[72825:2139357] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12ae79800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:50:57.299 firefox-bin[72825:2139357] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12aec6000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileMpQsDC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51280/devtools/browser/6dd4a020-6724-431a-af8f-f0067032243f
+1651481458607	Marionette	INFO	Listening on port 51287
+1651481458654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651481721738	geckodriver	INFO	Listening on 127.0.0.1:51413
+1651481722269	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51414" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofile82hRlp"
+1651481722815	Marionette	INFO	Marionette enabled
+2022-05-02 10:55:23.530 firefox-bin[72983:2145118] Warning: Expected min height of view: (<NSButton: 0x113ba4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:55:23.531 firefox-bin[72983:2145118] Warning: Expected min height of view: (<NSButton: 0x122356c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:55:23.531 firefox-bin[72983:2145118] Warning: Expected min height of view: (<NSButton: 0x12235b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:55:23.532 firefox-bin[72983:2145118] Warning: Expected min height of view: (<NSButton: 0x122362000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:55:23.532 firefox-bin[72983:2145118] Warning: Expected min height of view: (<NSButton: 0x12235e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:55:23.533 firefox-bin[72983:2145118] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x122362400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 10:55:23.533 firefox-bin[72983:2145118] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x10388a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofile82hRlp/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51414/devtools/browser/8ea7a2d3-32b8-48bb-b65f-084dd355e3af
+1651481724804	Marionette	INFO	Listening on port 51421
+1651481724880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+1651481844522	Marionette	INFO	Stopped listening on port 51421
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651481845750	Marionette	INFO	Stopped listening on port 51287
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651481847740	Marionette	INFO	Stopped listening on port 51127
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651482201708	geckodriver	INFO	Listening on 127.0.0.1:51595
+1651482202226	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51596" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofiledpHgp7"
+1651482202877	Marionette	INFO	Marionette enabled
+2022-05-02 11:03:23.690 firefox-bin[73351:2154551] Warning: Expected min height of view: (<NSButton: 0x12298d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:03:23.691 firefox-bin[73351:2154551] Warning: Expected min height of view: (<NSButton: 0x122b89000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:03:23.692 firefox-bin[73351:2154551] Warning: Expected min height of view: (<NSButton: 0x122b86c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:03:23.693 firefox-bin[73351:2154551] Warning: Expected min height of view: (<NSButton: 0x122b84000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:03:23.693 firefox-bin[73351:2154551] Warning: Expected min height of view: (<NSButton: 0x122b89800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:03:23.694 firefox-bin[73351:2154551] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x122b82800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:03:23.695 firefox-bin[73351:2154551] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11a818400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofiledpHgp7/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51596/devtools/browser/4bbf882b-fd71-432e-b1c8-8d7687e94788
+1651482205221	Marionette	INFO	Listening on port 51603
+1651482205347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+1651482471618	Marionette	INFO	Stopped listening on port 51603
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651482546597	geckodriver	INFO	Listening on 127.0.0.1:51732
+1651482547120	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51733" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilee5CNO2"
+1651482548033	Marionette	INFO	Marionette enabled
+2022-05-02 11:09:08.892 firefox-bin[73513:2160319] Warning: Expected min height of view: (<NSButton: 0x11f177400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:09:08.893 firefox-bin[73513:2160319] Warning: Expected min height of view: (<NSButton: 0x11fcb7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:09:08.894 firefox-bin[73513:2160319] Warning: Expected min height of view: (<NSButton: 0x11fcbb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:09:08.895 firefox-bin[73513:2160319] Warning: Expected min height of view: (<NSButton: 0x11fcb5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:09:08.896 firefox-bin[73513:2160319] Warning: Expected min height of view: (<NSButton: 0x11fcb7800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:09:08.897 firefox-bin[73513:2160319] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11fce6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:09:08.898 firefox-bin[73513:2160319] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x10f4a9800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilee5CNO2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51733/devtools/browser/4de69d2c-9507-4763-94a3-583c40d37fa3
+1651482550276	Marionette	INFO	Listening on port 51740
+1651482550334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651482606871	Marionette	INFO	Stopped listening on port 51740
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651482613132	geckodriver	INFO	Listening on 127.0.0.1:51817
+1651482613149	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51818" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilel7BnpC"
+1651482613625	Marionette	INFO	Marionette enabled
+2022-05-02 11:10:14.352 firefox-bin[73550:2161793] Warning: Expected min height of view: (<NSButton: 0x112469000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:10:14.352 firefox-bin[73550:2161793] Warning: Expected min height of view: (<NSButton: 0x121782800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:10:14.353 firefox-bin[73550:2161793] Warning: Expected min height of view: (<NSButton: 0x121781c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:10:14.354 firefox-bin[73550:2161793] Warning: Expected min height of view: (<NSButton: 0x121783400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:10:14.354 firefox-bin[73550:2161793] Warning: Expected min height of view: (<NSButton: 0x12177f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:10:14.355 firefox-bin[73550:2161793] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x121780800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:10:14.355 firefox-bin[73550:2161793] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x111322000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilel7BnpC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51818/devtools/browser/c8b3b9d0-1318-4a22-b622-cace183f1eac
+1651482615592	Marionette	INFO	Listening on port 51823
+1651482615638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651482661989	Marionette	INFO	Stopped listening on port 51823
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651482674391	geckodriver	INFO	Listening on 127.0.0.1:51901
+1651482674915	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51902" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileUNbGLj"
+1651482675384	Marionette	INFO	Marionette enabled
+2022-05-02 11:11:16.135 firefox-bin[73594:2163241] Warning: Expected min height of view: (<NSButton: 0x11ebad000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:11:16.135 firefox-bin[73594:2163241] Warning: Expected min height of view: (<NSButton: 0x124ddc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:11:16.136 firefox-bin[73594:2163241] Warning: Expected min height of view: (<NSButton: 0x124ddc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:11:16.137 firefox-bin[73594:2163241] Warning: Expected min height of view: (<NSButton: 0x124de2c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:11:16.137 firefox-bin[73594:2163241] Warning: Expected min height of view: (<NSButton: 0x124de4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:11:16.138 firefox-bin[73594:2163241] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x124dde800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:11:16.139 firefox-bin[73594:2163241] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11cb0f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileUNbGLj/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51902/devtools/browser/2e99b1e2-fa6d-48c2-b300-6c5af7c0ff77
+1651482677249	Marionette	INFO	Listening on port 51909
+1651482677312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+1651482774379	Marionette	INFO	Stopped listening on port 51909
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651482923031	geckodriver	INFO	Listening on 127.0.0.1:52003
+1651482923553	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52004" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileWqJ0X2"
+1651482924025	Marionette	INFO	Marionette enabled
+2022-05-02 11:15:24.761 firefox-bin[73694:2166772] Warning: Expected min height of view: (<NSButton: 0x11f9f3000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:15:24.762 firefox-bin[73694:2166772] Warning: Expected min height of view: (<NSButton: 0x121470c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:15:24.762 firefox-bin[73694:2166772] Warning: Expected min height of view: (<NSButton: 0x121471000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:15:24.763 firefox-bin[73694:2166772] Warning: Expected min height of view: (<NSButton: 0x121472400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:15:24.764 firefox-bin[73694:2166772] Warning: Expected min height of view: (<NSButton: 0x12146c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:15:24.764 firefox-bin[73694:2166772] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x121478c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:15:24.765 firefox-bin[73694:2166772] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1214cc400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileWqJ0X2/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52004/devtools/browser/3e1f920c-dc96-4534-b658-12b09c29b8b2
+1651482925928	Marionette	INFO	Listening on port 52011
+1651482926031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651482965851	Marionette	INFO	Stopped listening on port 52011
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651482974046	geckodriver	INFO	Listening on 127.0.0.1:52086
+1651482974060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52087" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofile8gxX4O"
+1651482974521	Marionette	INFO	Marionette enabled
+2022-05-02 11:16:15.247 firefox-bin[73721:2167914] Warning: Expected min height of view: (<NSButton: 0x126cb2400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:16:15.248 firefox-bin[73721:2167914] Warning: Expected min height of view: (<NSButton: 0x12cf5f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:16:15.248 firefox-bin[73721:2167914] Warning: Expected min height of view: (<NSButton: 0x12cf5f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:16:15.249 firefox-bin[73721:2167914] Warning: Expected min height of view: (<NSButton: 0x12cf59800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:16:15.250 firefox-bin[73721:2167914] Warning: Expected min height of view: (<NSButton: 0x12cf5a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:16:15.250 firefox-bin[73721:2167914] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12cf63000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:16:15.251 firefox-bin[73721:2167914] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x124de6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofile8gxX4O/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52087/devtools/browser/e23fa015-cf07-4f1c-9994-d9ee744741a9
+1651482976548	Marionette	INFO	Listening on port 52092
+1651482976656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651483014026	Marionette	INFO	Stopped listening on port 52092
+1651483543970	geckodriver	INFO	Listening on 127.0.0.1:52236
+1651483544489	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52237" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileTYLfTd"
+1651483545129	Marionette	INFO	Marionette enabled
+2022-05-02 11:25:45.963 firefox-bin[73968:2176004] Warning: Expected min height of view: (<NSButton: 0x12b484c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:25:45.964 firefox-bin[73968:2176004] Warning: Expected min height of view: (<NSButton: 0x12beb9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:25:45.964 firefox-bin[73968:2176004] Warning: Expected min height of view: (<NSButton: 0x12bebdc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:25:45.965 firefox-bin[73968:2176004] Warning: Expected min height of view: (<NSButton: 0x12beb9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:25:45.966 firefox-bin[73968:2176004] Warning: Expected min height of view: (<NSButton: 0x12beba800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:25:45.967 firefox-bin[73968:2176004] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12beeec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:25:45.967 firefox-bin[73968:2176004] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x123b99c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileTYLfTd/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52237/devtools/browser/52b50ae1-333e-470a-ba0c-998d22b0444e
+1651483547311	Marionette	INFO	Listening on port 52244
+1651483547409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651484014802	geckodriver	INFO	Listening on 127.0.0.1:52388
+1651484015324	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52389" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileLO88Ln"
+1651484015898	Marionette	INFO	Marionette enabled
+2022-05-02 11:33:36.681 firefox-bin[74170:2183933] Warning: Expected min height of view: (<NSButton: 0x1168ba000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:33:36.682 firefox-bin[74170:2183933] Warning: Expected min height of view: (<NSButton: 0x118258000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:33:36.682 firefox-bin[74170:2183933] Warning: Expected min height of view: (<NSButton: 0x118262c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:33:36.683 firefox-bin[74170:2183933] Warning: Expected min height of view: (<NSButton: 0x118265800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:33:36.684 firefox-bin[74170:2183933] Warning: Expected min height of view: (<NSButton: 0x118261400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:33:36.684 firefox-bin[74170:2183933] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118263c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:33:36.685 firefox-bin[74170:2183933] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1147e1800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileLO88Ln/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52389/devtools/browser/24ca3fa5-db30-4d6e-93f0-60e266319495
+1651484018021	Marionette	INFO	Listening on port 52396
+1651484018136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1651484048902	Marionette	INFO	Stopped listening on port 52396
+1651484051860	geckodriver	INFO	Listening on 127.0.0.1:52471
+1651484051874	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52472" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileTYwgNF"
+1651484052364	Marionette	INFO	Marionette enabled
+2022-05-02 11:34:13.087 firefox-bin[74196:2184849] Warning: Expected min height of view: (<NSButton: 0x121e8b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:34:13.088 firefox-bin[74196:2184849] Warning: Expected min height of view: (<NSButton: 0x1220ca800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:34:13.088 firefox-bin[74196:2184849] Warning: Expected min height of view: (<NSButton: 0x1220cc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:34:13.089 firefox-bin[74196:2184849] Warning: Expected min height of view: (<NSButton: 0x1220ccc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:34:13.090 firefox-bin[74196:2184849] Warning: Expected min height of view: (<NSButton: 0x1220cac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:34:13.090 firefox-bin[74196:2184849] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1220d5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:34:13.091 firefox-bin[74196:2184849] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x122061400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofileTYwgNF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52472/devtools/browser/9adff95f-d9d7-4cef-9e8b-d65715fe593b
+1651484054254	Marionette	INFO	Listening on port 52477
+1651484054372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1651484134123	Marionette	INFO	Stopped listening on port 52477
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1651484137525	geckodriver	INFO	Listening on 127.0.0.1:52552
+1651484137540	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52553" "-foreground" "-no-remote" "-profile" "/var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilelFf0SO"
+1651484138021	Marionette	INFO	Marionette enabled
+2022-05-02 11:35:38.783 firefox-bin[74230:2186302] Warning: Expected min height of view: (<NSButton: 0x120fd4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:35:38.783 firefox-bin[74230:2186302] Warning: Expected min height of view: (<NSButton: 0x12725a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:35:38.784 firefox-bin[74230:2186302] Warning: Expected min height of view: (<NSButton: 0x127253c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:35:38.785 firefox-bin[74230:2186302] Warning: Expected min height of view: (<NSButton: 0x127255000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:35:38.785 firefox-bin[74230:2186302] Warning: Expected min height of view: (<NSButton: 0x127255800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:35:38.786 firefox-bin[74230:2186302] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x127261000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-02 11:35:38.786 firefox-bin[74230:2186302] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11f00e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/js/lf9xkn9x7yg146j_k40r_0dw0000gn/T/rust_mozprofilelFf0SO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52553/devtools/browser/3726a61d-8151-4a49-abd0-3d91c6253863
+1651484140178	Marionette	INFO	Listening on port 52558
+1651484140244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+JavaScript error: https://www.bundesanzeiger.de/pub/wicket/resource/com.plusserver.wicket.input.Select/Select-ver-E209111407B2F832BAC2AD01ED7CAF1C.js, line 8: TypeError: $(...).selectpicker is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.bundesanzeiger.de"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.error: "Tried to call unwatchFronts for the 'accessibility' type on an already destroyed front 'windowGlobalTarget'."
+console.warn: ({})
+console.error: "Exception while getting unique selector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967302/domnode35, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\n_create/<@resource://devtools/client/inspector/rules/views/rule-editor.js:208:72\n_create@resource://devtools/client/inspector/rules/views/rule-editor.js:221:20\nRuleEditor@resource://devtools/client/inspector/rules/views/rule-editor.js:80:8\n_createEditors@resource://devtools/client/inspector/rules/rules.js:1326:23\n_populate/<@resource://devtools/client/inspector/rules/rules.js:1106:37\n", "resource://devtools/shared/protocol/Front.js", 106))
+1651484802453	Marionette	INFO	Stopped listening on port 52558
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
