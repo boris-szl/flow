@@ -5,10 +5,12 @@
 .ipynb_checkpoints
 
 # ignore
-.jpynb
+nb.ipynb
 
 # ignore nb
-.nb
+.DS_Store
 
 # ignore
-.geckodriver.log
+geckodriver.log
+
+
