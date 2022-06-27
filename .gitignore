@@ -1,0 +1,14 @@
+# ignore ideas
+.idea
+
+# ignore .ipynb_checkpoints
+.ipynb_checkpoints
+
+# ignore
+.jpynb
+
+# ignore nb
+.nb
+
+# ignore
+.geckodriver.log

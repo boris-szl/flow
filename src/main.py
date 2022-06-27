@@ -18,6 +18,19 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 # from selenium import *
 
+# import selenium stealth
+# A python package selenium-stealth to prevent detection. This programme is trying to make python selenium more stealthy.
+
+# import thread ??
+# https://docs.python.org/3/library/threading.html
+# https://realpython.com/intro-to-python-threading/
+
+# import asyncio
+# https://docs.python.org/3/library/asyncio.html
+
+# import simplejson
+# https://pypi.org/project/simplejson/
+
 # error handling
 from selenium.common.exceptions import NoSuchElementException
 
