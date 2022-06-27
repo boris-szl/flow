@@ -7,4 +7,8 @@
 # ignore
 .jpynb
 
+# ignore nb
+.nb
 
+# ignore
+.geckodriver.log
